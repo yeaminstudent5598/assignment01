@@ -1,0 +1,84 @@
+/* headher styls  */
+
+.header-container {
+    width: 1440px;
+height: 652px;
+border: 2px solid red;
+margin: 0 auto;
+background-image: url('assets/background-img.png');
+}
+.header-content {
+    width: 998px;
+    height: 582px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 26px;
+}
+.header-img
+{
+    width: 240.28px;
+    height: 240px;
+/* border: 2px solid blue; */
+margin: 0 auto;
+
+
+
+
+}
+
+.all-text {
+    width: 998px;
+height: 310px;
+/* border: 2px solid red ; */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+.header-text {
+    width: 998px;
+height: 136px;
+text-align: center;
+}
+.header-text h1 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+}
+ p {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.header-btn {
+    width: 208px;
+height: 66px;
+/* border: 2px solid red; */
+}
+.header-btn {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px 21px 24px;
+color: white;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+margin-top: 144px;
+}
+/* header end  */
+
+/* main section style start  */
+
+.main-container
+{
+    width: 1140px;
+height: 1393px;
+border: 2px solid red ;
+margin: 0 auto;
+margin-top: 74px;
+}
