@@ -551,13 +551,14 @@ font-weight: 700;
 .footer-container {
     width: 1140px;
 height: 313px;
-border: 5px solid red;
+/* border: 5px solid red; */
 margin: 0 auto;
 margin-top: 49px;
 border-radius: 16px;
-background-color: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);;
+background-color: rgba(0,0,0,0.5);
 background-image: url('assets/handshake.jpg'
 );
+background-blend-mode: overlay;
 background-size: cover;
     background-position: center;
     text-align: center;
@@ -584,6 +585,8 @@ font-size: 16px;
 font-weight: 400;
 margin: 10px 0 20px 0;
 margin-top: 16px;
+opacity: 0.7;
+
 
 }
 .form-input {
@@ -594,8 +597,6 @@ margin: 0 auto;
 border-radius: 8px;
 background: rgb(255, 255, 255);
 margin-top: 24px;
-    /* display: inline-block;
-    margin-top: 20px; */
 }
 .footer-btn {
     width: 120px;
@@ -621,7 +622,4 @@ padding: 0 150px 0 150px;
 border-radius: 16px;
 background: rgba(13, 19, 33, 0.03);
 
-}
-.footer-images img{
-    gap: 24px;
 }
