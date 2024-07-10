@@ -6,31 +6,62 @@
 .header-container {
     width: 1440px;
 height: 652px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin: 0 auto;
 background-image: url('assets/background-img.png');
 }
 .header-content {
-    width: 998px;
-    height: 582px;
+    /* width: 998px;
+    height: 582px; */
     /* border: 2px solid red; */
     margin: 0 auto;
     margin-top: 26px;
+    text-align: center;
 }
-.header-img
-{
-    width: 240.28px;
-    height: 240px;
-border: 2px solid blue;
-margin: 0 auto;
-display: flex;
-justify-content: center;
-flex-direction: column;
-
-
-
+.header-content h1{
+    /* width: 998px;
+height: 136px; */
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
 
 }
+
+.header-content p {
+
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .all-text {
     width: 998px;
@@ -68,15 +99,15 @@ font-weight: 400;
 .header-btn {
     width: 208px;
 height: 66px;
-    display: flex;
-flex-direction: row;
+    /* display: flex; */
+/* flex-direction: row;
 justify-content: center;
-align-items: center;
+align-items: center; */
 padding: 21px 24px 21px 24px;
 color: white;
 border-radius: 8px;
 background: rgb(13, 19, 33);
-margin: 32px 395px 44px 395px;
+
 }
 /* header end  */
 
@@ -86,7 +117,7 @@ margin: 32px 395px 44px 395px;
 {
     width: 1140px;
 height: 1393px;
-border: 2px solid red ;
+/* border: 2px solid red ; */
 margin: 0 auto;
 margin-top: 74px;
 }
@@ -94,14 +125,38 @@ margin-top: 74px;
 {
     width: 946px;
 height: 1233px;
-border: 2px solid black;
+/* border: 2px solid black; */
 margin: 0 auto;
 margin-top: 80px;
 }
+
+.main-section-text h1 {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+
+    text-align: center;
+
+}
+.main-section-text p{
+    text-align: center;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+padding: 24px 47px 0 47px;
+
+}
+
+
+
+
 .head-pragraph {
     width: 852px;
 height: 113px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin: 0 auto;
 display: flex;
 flex-direction: column;
@@ -133,7 +188,7 @@ text-align: center;
 .left-side-text-right-side-img {
     width: 946px;
 height: 336px;
-border: 2px solid green;
+/* border: 2px solid green; */
 margin: 0 auto;
 display: flex;
 align-items: center;
@@ -148,16 +203,14 @@ margin-top: 48px;
     padding-left: 49px;
 }
 .left-side-content h1 {
-    width: 390px;
-height: 72px;
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
     
 }
 .left-side-content p {
-    width: 468px;
-height: 52px;
+   
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -178,6 +231,7 @@ text-align: center;
 box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
+margin: 32px 0px;
 
 }
 .right-side-content {
@@ -189,7 +243,7 @@ opacity: 0.7;
  .section-container-two {
     width: 946px;
 height: 336px;
-border: 2px solid black;
+/* border: 2px solid black; */
 margin: 0 auto;
 margin-top: 32px;
 display: flex;
@@ -200,29 +254,26 @@ justify-content: center;
  .left-side-second-content {
     width: 223.2px;
     height: 208.85px;
-    border: 2px solid red;
+    
     margin: 0 auto;
     margin-top: 48px;
  }
  .right-side-second-content {
     width: 477px;
 height: 219px;
-border: 2px solid black;
+/* border: 2px solid black; */
 margin: 0 auto;
 margin-top: 48px;
     
  }
  .right-side-second-content h1{
-    width: 477px;
-height: 72px;
-color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
  }
  .right-side-second-content p {
-    width: 468px;
-height: 52px;
+   
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -231,8 +282,7 @@ font-weight: 400;
     
  }
  .right-side-second-content button {
-    width: 171px;
-    height: 47px;
+   
     
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -241,10 +291,12 @@ font-weight: 400;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    
+    padding: 12px 20px 12px 20px;    
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    margin: 32px 0px;
+    
     
     
     
@@ -253,9 +305,9 @@ font-weight: 400;
  .section-container-third {
     width: 946px;
 height: 336px;
-border: 2px solid red ;
+/* border: 2px solid red ; */
 margin: 0 auto;
-margin-top: 32px;
+/* margin-top: 32px; */
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -264,13 +316,27 @@ justify-content: space-between;
 
  }
  .left-side-container-third {
-    width: 60%%;
+   
     
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 49px;
 
+
+ }
+ .left-side-container-third h1 {
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+ }
+ .left-side-container-third p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
 
  }
 
@@ -289,7 +355,7 @@ justify-content: space-between;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
-    margin-top: 32px;
+    margin: 32px 0px;
     
 
  }
@@ -304,15 +370,14 @@ justify-content: space-between;
  .video-section {
     width: 1140px;
 height: 775px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin: 0 auto;
 margin-top: 90px;
 
  }
  .video-section-text {
-    width: 852px;
-height: 115px;
-border: 2px solid black;
+    
+/* border: 2px solid black; */
 margin: 0 auto;
 display: flex;
 flex-direction: column;
@@ -325,6 +390,7 @@ align-items: center;
 font-family: Azeret Mono;
 font-size: 32px;
 font-weight: 800;
+margin: 24px 0px;
  }
  .video-section-text p{
     color: rgb(13, 19, 33);
@@ -333,6 +399,7 @@ font-size: 16px;
 font-weight: 400;
 opacity: 0.7;
 text-align: center;
+margin: 24px 0px;
 
  }
  .video {
@@ -345,23 +412,13 @@ text-align: center;
  .my-terget-section {
     width: auto 1140px;
     height: auto 460px;
-border: 2px solid black;
+/* border: 2px solid black; */
 margin: 0 auto;
 margin-top: 151px;
 
  }
-.title-container {
-    border: 2px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: 0 auto;
-}
+
 .title-container h1{
-    width: 852px;
-height: 37px;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 32px;
@@ -369,8 +426,6 @@ font-weight: 800;
 text-align: center;
 }
 .title-container p {
-    width: 852px;
-height: 52px;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -390,7 +445,7 @@ text-align: center;
 { 
     width: 364px;
 height: 299px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin-top: 48px;
 
 padding: 48px;
@@ -424,7 +479,7 @@ font-weight: 700;
 {
     width: 364px;
 height: 299px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin-top: 48px;
 padding: 48px;
 border-radius: 16px;
@@ -443,8 +498,6 @@ height: 36px
 
 }
 .second-image p{
-    width: 284px;
-height: 52px;
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -463,7 +516,7 @@ font-weight: 700;
 {
     width: 364px;
 height: 299px;
-border: 2px solid red;
+/* border: 2px solid red; */
 margin-top: 48px;
 
 padding: 48px;
@@ -472,8 +525,7 @@ border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
 .third-image h1 {
-    width: 284px;
-height: 36px;
+    
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 24px;
@@ -481,8 +533,7 @@ font-weight: 800;
 
 }
 .third-image p {
-    width: 284px;
-height: 52px;
+   
 color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -500,7 +551,7 @@ font-weight: 700;
 .footer-container {
     width: 1140px;
 height: 313px;
-border: 2px solid red;
+border: 5px solid red;
 margin: 0 auto;
 margin-top: 49px;
 border-radius: 16px;
